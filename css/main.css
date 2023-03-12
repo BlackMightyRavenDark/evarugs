@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.megawrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 47px 120px 0 120px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: rgba(115, 115, 115, 1);
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: navy;
+}
+
+.main-text {
+    width: 600px;
+    margin: 190px 0 0 122px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.main-text > p {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+button {
+    padding: 10px 30px;
+    margin-bottom: 250px;
+    margin-top: 20px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.img6 {
+    position: absolute;
+    left: 750px;
+    top: 70px;
+}
+
+.img7 {
+    position: absolute;
+    left: 610px;
+    top: 145px;
+}
+
+.img4 {
+    position: absolute;
+    left: 410px;
+    top: 240px;
+}
+
+.img5 {
+    position: absolute;
+    left: 433px;
+    top: 250px;
+    width: 45px;
+}
+
+.img1 {
+    position: absolute;
+    left: 90px;
+    top: 600px;
+}
+
+.img2 {
+    position: absolute;
+    left: 144px;
+    top: 570px;
+}
+
+.img3 {
+    position: absolute;
+    left: 176px;
+    top: 622px;
+}
