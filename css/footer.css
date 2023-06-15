@@ -1,0 +1,30 @@
+footer {
+    position: relative;
+    margin-top: 170px;
+}
+
+.footer__info-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__info-block > img {
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.footer__info-block {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer__info-block > p:nth-child(1) {
+    font-weight: 700;
+}

@@ -105,3 +105,15 @@ button:hover {
     left: 176px;
     top: 577px;
 }
+
+.img8 {
+    position: absolute;
+    top: -80px;
+    left: 70px;
+}
+
+.img9 {
+    position: absolute;
+    left: calc(100vw - 270px - 30px);
+    top: -150px;
+}
