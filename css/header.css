@@ -14,3 +14,15 @@ header {
     font-weight: 500;
     font-size: 14px;
 }
+
+@media screen and (max-device-width: 1400px) {
+    header {
+        justify-content: flex-end;
+        gap: 200px;
+        padding-right: 40px;
+    }
+
+    .header__flex:nth-child(1) {
+        display: none;
+    }
+}

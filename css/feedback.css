@@ -42,3 +42,25 @@
     text-align: center;
     color: rgba(142, 142, 142, 1);
 }
+
+@media screen and (max-device-width: 1400px) {
+    .feedback-wrapper {
+        width: unset;
+        height: unset;
+    }
+
+    .feedback-list {
+        flex-direction: column;
+        gap: 110px;
+        height: unset;
+        padding: 100px 0 72px 0;
+    }
+
+    .feedback-list__feedback-item > img:nth-child(1) {
+        left: 170px;
+    }
+
+    .feedback-list__feedback-item > img:nth-child(3) {
+        margin-left: 180px;
+    }
+}

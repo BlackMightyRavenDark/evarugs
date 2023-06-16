@@ -3,6 +3,11 @@
     margin-bottom: 225px;
 }
 
+.block-about__carpet-list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .block-about > h2 {
     display: flex;
     justify-content: center;
@@ -27,6 +32,25 @@
     width: 344px;
     box-shadow: 0 0 8px 2px gray;
     background-color: white;
+    overflow: hidden;
+}
+
+.about__img1 {
+    width: 344px;
+    height: 207px;
+    background-image: url("../images/carpets1.png");
+}
+
+.about__img2 {
+    width: 344px;
+    height: 207px;
+    background-image: url("../images/carpets2.png");
+}
+
+.about__img3 {
+    width: 344px;
+    height: 207px;
+    background-image: url("../images/carpets3.png");
 }
 
 .carpet-card__text-wrapper {
@@ -65,4 +89,50 @@
     left: 400px;
     top: 592px;
     z-index: -1;
+}
+
+@media screen and (max-device-width: 1400px) {
+    .block-about__carpet-list {
+        flex-direction: column;
+    }
+
+    .carpet-list__carpet-card {
+        width: 593px;
+    }
+
+    .about__img1 {
+        width: 594px;
+        height: 163px;
+        background-image: url("../images/carpets4.png");
+    }
+
+    .about__img2 {
+        width: 594px;
+        height: 159px;
+        background-image: url("../images/carpets5.png");
+    }
+
+    .about__img3 {
+        width: 594px;
+        height: 153px;
+        background-image: url("../images/carpets6.png");
+    }
+
+    .about-bkg1 {
+        width: 177px;
+        left: 58px;
+        top: 256px;
+    }
+
+    .about-bkg2 {
+        width: 86px;
+        left: 189px;
+        top: 426px;
+    }
+
+    .about-bkg3 {
+        left: unset;
+        right: 30px;
+        top: 780px;
+    }
 }

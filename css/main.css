@@ -48,6 +48,10 @@ h1 {
     font-weight: 300;
 }
 
+.main-block__main-text > p:nth-child(3) {
+    display: none;
+}
+
 button {
     padding: 10px 30px;
     margin-bottom: 250px;
@@ -61,4 +65,36 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-device-width: 1400px) {
+    .main-block__megawrapper {
+        margin: 0;
+    }
+
+    .megawrapper__logo-wrapper {
+        margin: 140px 0 0 66px;
+    }
+
+    .main-block__menu-nav {
+        display: none;
+    }
+
+    .main-block__main-text {
+        margin-left: 66px;
+    } 
+
+    h1 {
+        width: 400px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .main-block__main-text > p:nth-child(2) {
+        display: none;
+    }
+
+    .main-block__main-text > p:nth-child(3) {
+        display: block;
+    }
 }

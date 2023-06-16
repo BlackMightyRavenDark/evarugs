@@ -28,3 +28,10 @@ footer {
 .footer__info-block > p:nth-child(1) {
     font-weight: 700;
 }
+
+@media screen and (max-device-width: 1400px) {
+    .footer__info-wrapper {
+        justify-content: space-between;
+        margin: 0 100px 0 50px;
+    }
+}

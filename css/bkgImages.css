@@ -52,3 +52,48 @@
     left: calc(100vw - 270px - 30px);
     top: -150px;
 }
+
+@media screen and (max-device-width: 1400px) {
+    .img1 {
+        left: 94px;
+        top: 700px;
+    }
+
+    .img2 {
+        left: 96px;
+        top: 666px;
+    }
+
+    .img4 {
+        left: 234px;
+        top: 176px;
+    }
+
+    .img5 {
+        left: 254px;
+        top: 187px;
+    }
+
+    .img6 {
+        left: 392px;
+        top: 200px;
+    }
+
+    .img7 {
+        left: 216px;
+        top: 262px;
+    }
+
+    .img8 {
+        width: 86px;
+        left: 118px;
+        top: -34px;
+    }
+
+    .img9 {
+        width: 40px;
+        left: unset;
+        right: 36px;
+        top: -30px;
+    }
+}
