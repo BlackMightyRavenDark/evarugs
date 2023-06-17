@@ -15,7 +15,7 @@ header {
     font-size: 14px;
 }
 
-@media screen and (max-device-width: 1400px) {
+@media screen and (max-width: 1400px) {
     header {
         justify-content: flex-end;
         gap: 200px;
@@ -23,6 +23,37 @@ header {
     }
 
     .header__flex:nth-child(1) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: unset;
+        padding: 25px 0;
+    }
+
+    .header__flex:nth-child(1) {
+        display: block;
+    }
+
+    .header__flex:nth-child(1) > img {
+        display: none;
+    }
+
+    .header__flex:nth-child(2) > img {
+        display: none;
+    }
+
+    .header__flex:nth-child(2) > p {
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    .header__flex:nth-child(3) {
         display: none;
     }
 }

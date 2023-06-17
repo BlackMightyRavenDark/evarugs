@@ -30,6 +30,7 @@
 
 .carpet-list__carpet-card {
     width: 344px;
+    border-radius: 9px;
     box-shadow: 0 0 8px 2px gray;
     background-color: white;
     overflow: hidden;
@@ -91,7 +92,7 @@
     z-index: -1;
 }
 
-@media screen and (max-device-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .block-about__carpet-list {
         flex-direction: column;
     }
@@ -134,5 +135,43 @@
         left: unset;
         right: 30px;
         top: 780px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .block-about {
+        margin-bottom: 100px;
+    }
+
+    .block-about > h2 {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .carpet-list__carpet-card {
+        width: 264px;
+        box-shadow: 0 0 40px 0 rgba(184, 0, 95, 0.2);
+    }
+
+    .about__img1 {
+        width: 264px;
+        height: 151px;
+        background-image: url("../images/carpets7.png");
+    }
+
+    .about__img2 {
+        width: 264px;
+        height: 159px;
+        background-image: url("../images/carpets8.png");
+    }
+
+    .about__img3 {
+        width: 264px;
+        height: 173px;
+        background-image: url("../images/carpets9.png");
+    }
+
+    .about-bkg3 {
+        display: none;
     }
 }
